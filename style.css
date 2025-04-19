@@ -46,3 +46,23 @@ th {
 tr:hover {
     background-color: #fdfdfd;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+}
